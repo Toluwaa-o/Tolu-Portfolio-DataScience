@@ -20,7 +20,7 @@ const data = [
     name: "Enhancing Financial Stability: Predictive Modeling for Loan Default Risk at ABC Bank",
     description:
       "In this project, I attempt to create a model that accurately predicts loan defaults, enhancing financial stability and risk management for ABC Bank.",
-    desktopView: "/loan.jpg",
+    desktopView: "/Loan.jpg",
     toolsUsed: [
       "Data Science",
       "Data Analysis",

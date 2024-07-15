@@ -19,7 +19,7 @@ const AllProjects = () => {
           href={`/${sector.key}`}
         >
           <span className="bg-black w-[10vw] h-[2px] hidden md:hover:block transition-all"></span>
-          <h3 className={`tracker-wider text-2xl font-bold md:hover:text-xl`}>
+          <h3 className={`tracker-wider text-2xl font-bold`}>
             {sector.name}
           </h3>
         </Link>
