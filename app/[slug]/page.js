@@ -48,9 +48,17 @@ const Page = ({ params: { slug } }) => {
         </span>
       )}
 
-      <div className="flex flex-col items-center gap-8 md:overflow-scroll md:h-[85vh] md:pb-[20vh]" id="scrollable">
-        {portfolioData.length &&
-          portfolioData.map((data) => <Project key={data.name} {...data} />)}
+      <div
+        className="flex flex-col items-center gap-8 md:overflow-scroll md:h-[85vh] md:pb-[20vh]"
+        id="scrollable"
+      >
+        {portfolioData.length ? (
+          portfolioData.map((data) => <Project key={data.name} {...data} />)
+        ) : (
+          <h1 className="text-lg font-bold text-center">
+            Sorry, no projects in this section yet!
+          </h1>
+        )}
       </div>
     </div>
   );
