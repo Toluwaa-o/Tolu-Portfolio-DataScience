@@ -13,7 +13,7 @@ const Page = ({ params: { slug } }) => {
   const arry = [
     { name: "Finance Projects", key: "finance" },
     { name: "E-Commerce / Retail Projects", key: "ecommerce" },
-    { name: "To Be Decided Projects", key: "idk" },
+    { name: "Sports Projects", key: "sports" },
   ];
 
   const [projectName, setProjectName] = useState(null);
