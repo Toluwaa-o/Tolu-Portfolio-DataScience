@@ -34,7 +34,7 @@ const data = [
     category: "finance",
   },
   {
-    name: "Enhancing Walmart’s Operational Efficiency: Achieving Accurate Weekly Sales Predictions with Advanced Regression Modeling",
+    name: "Enhancing Walmart’s Operational Efficiency...",
     description:
       "In this project, I attempt to create a predictive model for Walmart's weekly sales using data analysis and machine learning to optimize operations and enhance forecasting accuracy.",
     desktopView: "/walmart.jpg",
