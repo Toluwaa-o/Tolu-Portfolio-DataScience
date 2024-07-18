@@ -11,7 +11,7 @@ const Navbar = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <nav className="flex justify-between relative p-4 items-center">
+    <nav className="flex justify-between relative p-4 items-center h-[7vh]">
       <Link
         className="flex text-black text-lg md:font-extrabold md:text-xl transition-all md:m-auto"
         href="/"
@@ -20,7 +20,7 @@ const Navbar = () => {
       </Link>
       <HamburgerMenu show={show} setShow={setShow} />
       <ul
-        className={`md:hidden absolute bg-white top-[5vh] w-[100vw] left-0 right-0 shadow-md p-4 text-center grid gap-4 justify-center ${
+        className={`md:hidden absolute bg-white top-[7vh] w-[100vw] left-0 right-0 shadow-md p-4 text-center grid gap-4 justify-center ${
           show ? "nav_in" : "nav_out"
         } md:flex md:relative md:top-[unset] md:w-fit md:gap-8 md:shadow-none`}
       >

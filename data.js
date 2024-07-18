@@ -33,6 +33,23 @@ const data = [
       "https://github.com/Toluwaa-o/Loan-Default-Classification/tree/master",
     category: "finance",
   },
+  {
+    name: "Enhancing Walmart’s Operational Efficiency: Achieving Accurate Weekly Sales Predictions with Advanced Regression Modeling",
+    description:
+      "In this project, I attempt to create a predictive model for Walmart's weekly sales using data analysis and machine learning to optimize operations and enhance forecasting accuracy.",
+    desktopView: "/walmart.jpg",
+    toolsUsed: [
+      "Data Science",
+      "Data Analysis",
+      "Machine Learning",
+      "Big Data",
+    ],
+    report_link:
+      "https://medium.com/@asheogunleye02/enhancing-walmarts-operational-efficiency-achieving-accurate-weekly-sales-predictions-with-b88678c5abaf",
+    code_link:
+      "https://github.com/Toluwaa-o/Weekly-Sales-Forecasting",
+    category: "ecommerce",
+  },
 ];
 
 export default data;
