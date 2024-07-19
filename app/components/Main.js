@@ -6,7 +6,7 @@ export default function Main() {
       <span className="text-4xl md:text-6xl font-black tracking-wide grid gap-2 md:gap-4">
         <h1 className="md:gap-2 md:grid">
           Hi, I'm{" "}
-          <Link href="/about" className="bg_text w-fit h-fit md:inline">
+          <Link href="https://github.com/Toluwaa-o" className="bg_text w-fit h-fit md:inline">
             Toluwalashe
           </Link>
         </h1>
