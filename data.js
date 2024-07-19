@@ -50,6 +50,23 @@ const data = [
       "https://github.com/Toluwaa-o/Weekly-Sales-Forecasting",
     category: "ecommerce",
   },
+  {
+    name: "Balanced Tree Clothing Company Sales Report",
+    description:
+      "In this project, I analyzed Balanced Tree Clothing Company's sales performance to uncover insights on top products, segment and category performance, and customer buying patterns.",
+    desktopView: "/Balanced_tree.png",
+    toolsUsed: [
+      "Data Science",
+      "Data Analysis",
+      "SQL",
+      "Big Data",
+    ],
+    report_link:
+      "https://medium.com/@asheogunleye02/balanced-tree-clothing-company-sales-report-72b06cfe7b75",
+    code_link:
+      "https://github.com/Toluwaa-o/Balanced-Tree-Clothing-SQL-Queries",
+    category: "ecommerce",
+  },
 ];
 
 export default data;
