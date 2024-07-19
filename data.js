@@ -54,7 +54,7 @@ const data = [
     name: "Balanced Tree Clothing Company Sales Report",
     description:
       "In this project, I analyzed Balanced Tree Clothing Company's sales performance to uncover insights on top products, segment and category performance, and customer buying patterns.",
-    desktopView: "/Balanced_tree.png",
+    desktopView: "/fashion.jpg",
     toolsUsed: [
       "Data Science",
       "Data Analysis",

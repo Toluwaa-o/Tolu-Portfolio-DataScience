@@ -1,7 +1,7 @@
 const Project = ({ name, desktopView, description, report_link, code_link }) => {
   return (
     <div className="grid gap-2 md:gap-4 w-[95%] md:grid-cols-2">
-      <img src={desktopView} alt={name} className="rounded-md  m-auto h-[23vh] w-[100%] md:h-[43vh]" />
+      <img src={desktopView} alt={name} className="rounded-md  m-auto h-[23vh] w-[100%] md:h-[42vh]" />
       <div className="grid gap-2 md:gap-4 md:place-content-center">
         <h4 className="font-extrabold text-xl">{name}</h4>
         <p className="text-gray-600 text-lg hidden md:block">{description}</p>
