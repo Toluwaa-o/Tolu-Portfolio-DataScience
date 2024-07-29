@@ -51,6 +51,23 @@ const data = [
     category: "ecommerce",
   },
   {
+    name: "Boosting Sephora Sales with Advanced Recommendation Systems",
+    description:
+      "In this project, I developed recommendation systems using collaborative and content-based filtering techniques to provide personalized product suggestions and improve user experience for Sephora.",
+    desktopView: "/sephora.jpeg",
+    toolsUsed: [
+      "Data Science",
+      "Data Analysis",
+      "Machine Learning",
+      "Big Data",
+    ],
+    report_link:
+      "https://medium.com/@asheogunleye02/leveraging-user-reviews-and-product-attributes-a-dual-approach-to-personalized-recommendations-at-b5c1e948e0dc",
+    code_link:
+      "https://github.com/Toluwaa-o/Sephora-Recommendation-Systems",
+    category: "ecommerce",
+  },
+  {
     name: "Balanced Tree Clothing Company Sales Report",
     description:
       "In this project, I analyzed Balanced Tree Clothing Company's sales performance to uncover insights on top products, segment and category performance, and customer buying patterns.",
