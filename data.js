@@ -84,6 +84,23 @@ const data = [
       "https://github.com/Toluwaa-o/Balanced-Tree-Clothing-SQL-Queries",
     category: "ecommerce",
   },
+  {
+    name: "Predictive Modeling For ATP Tennis Match Outcomes",
+    description:
+      "In this project, I attempt to develop a robust machine learning model capable of predicting tennis match outcomes using a dataset containing detailed historical match information.",
+    desktopView: "/tennis.jpg",
+    toolsUsed: [
+      "Data Science",
+      "Data Analysis",
+      "Machine Learning",
+      "Big Data",
+    ],
+    report_link:
+      "https://medium.com/@asheogunleye02/predictive-modeling-for-atp-tennis-match-outcomes-a-machine-learning-approach-using-historical-1fc35065fd50",
+    code_link:
+      "https://github.com/Toluwaa-o/Tennis-Match-Result-Prediction",
+    category: "sports",
+  },
 ];
 
 export default data;
