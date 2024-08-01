@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import data from "@/data";
 
 const AllProjects = () => {
   const [sectors, setSectors] = useState([
@@ -19,8 +20,8 @@ const AllProjects = () => {
           href={`/${sector.key}`}
         >
           <span className="bg-black w-[10vw] h-[2px] hidden md:hover:block transition-all"></span>
-          <h3 className={`tracker-wider text-2xl font-bold`}>
-            {sector.name}
+          <h3 className={`tracker-wider text-[1.4rem] font-bold`}>
+            {sector.name} ({data.filter(d => d.category === sector.key).length})
           </h3>
         </Link>
       ))}
