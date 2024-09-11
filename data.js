@@ -2,7 +2,7 @@ const data = [
   {
     name: "Enhancing Credit Risk Assessment",
     description:
-      "Develop a machine learning model to predict the likelihood of loan defaults, using borrower data like credit scores, income, and loan history.",
+      "In this project, I develop a machine learning model to predict the likelihood of loan defaults, using borrower data like credit scores, income, and loan history.",
     desktopView: "/risk.jpg",
     toolsUsed: [
       "Data Science",
