@@ -1,5 +1,22 @@
 const data = [
   {
+    name: "Enhancing Credit Risk Assessment",
+    description:
+      "Develop a machine learning model to predict the likelihood of loan defaults, using borrower data like credit scores, income, and loan history.",
+    desktopView: "/risk.jpg",
+    toolsUsed: [
+      "Data Science",
+      "Data Analysis",
+      "Machine Learning",
+      "Big Data",
+    ],
+    report_link:
+      "https://medium.com/@asheogunleye02/enhancing-credit-risk-assessment-a-machine-learning-approach-to-predict-borrower-creditworthiness-6e2466296299",
+    code_link:
+      "https://github.com/Toluwaa-o/Credit-Risk-Assessment",
+    category: "finance",
+  },
+  {
     name: "Detecting Fraudulent Online Payments Using Machine Learning Models",
     description:
       "In this project, I develop a model to detect fraudulent online payments with high precision, minimizing false positives and enhancing security in online transactions.",
